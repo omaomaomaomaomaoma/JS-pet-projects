@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="JS.png">
+    <title>To-do list</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Боковое меню -->
+        <div class="sidebar">
+            <div class="sidebar__logo">
+            Menu
+            </div>
+            <div class="sidebar__createTask" id="AddTask">
+            Create Task
+            </div>
+            <input class="sidebar__createTask" type="text" id="taskInput" placeholder="Введите задачу...">
+        </div>
+        <div class="table">
+        <div class="table__today">
+        Today tasks :
+        </div>
+        <div class="today__task" id="TodayTask">
+        *Task Here*
+        </div>
+        <div class="today__task___completed">
+        *Completed task here*    
+        </div>
+        </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
